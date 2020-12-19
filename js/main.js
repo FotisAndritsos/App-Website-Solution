@@ -1,7 +1,7 @@
 const nav = document.querySelector(".nav");
 const humMenu = document.querySelector(".hamburger-menu");
 const closeMenu = document.querySelector(".close");
-//Get the back to top button:
+//Select the back to top button:
 const backTop = document.querySelector(".back-top");
 
 humMenu.addEventListener("click", () => {
