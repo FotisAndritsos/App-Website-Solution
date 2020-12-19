@@ -136,8 +136,8 @@ nav a:hover::before {
   position: absolute;
   top: 0;
   left: 0;
-  height: inherit;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   background: #2193b0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
@@ -223,11 +223,10 @@ nav a:hover::before {
   font-size: 1rem;
   font-weight: 500;
   margin-bottom: 3rem;
-  
 }
 .about-container p {
   color: #034353;
-  line-height:1.8 ;
+  line-height: 1.8;
   opacity: 0.7;
   width: 80%;
 }
@@ -265,6 +264,7 @@ nav a:hover::before {
   right: 1rem;
   width: 3rem;
   height: 3rem;
+  border: 3px solid #fff;
   border-radius: 100%;
   background-color: #034353;
   display: flex;
@@ -298,8 +298,7 @@ nav a:hover::before {
 .services {
   background-color: #2193b0;
   height: 500px;
-  margin-top: 4rem;
-  margin: auto;
+  margin: 4rem auto;
   padding: 8rem 2.5rem;
   max-width: 1400px;
 }
@@ -335,12 +334,12 @@ nav a:hover::before {
   -webkit-box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 0px 14px 10px rgba(0, 0, 0, 0.19);
 }
-.service-item img{
+.service-item img {
   margin-bottom: 1rem;
 }
-.service-item h3{
+.service-item h3 {
   font-size: 1.3rem;
-  color: #034353; ;
+  color: #034353;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -351,7 +350,7 @@ nav a:hover::before {
   opacity: 0.7;
   margin: 0;
 }
-.presentation{
+.presentation {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -359,7 +358,7 @@ nav a:hover::before {
   max-width: 1400px;
   margin: 10rem auto 0;
 }
-.img-con{
+.img-con {
   flex: 1;
   display: flex;
   align-items: center;
@@ -369,50 +368,50 @@ nav a:hover::before {
   width: 100%;
   height: 100%;
 }
-.presentation-info{
+.presentation-info {
   flex: 2;
   padding: 2rem 0 2rem 4rem;
 }
-.presentation-info h2{
- color:#034353 ;
+.presentation-info h2 {
+  color: #034353;
 }
-.presentation-info h3{
+.presentation-info h3 {
   font-size: 1.3rem;
-    color: #034353;
-    margin-bottom: 2rem;
-    opacity: 0.5;
-    width: 70%;
+  color: #034353;
+  margin-bottom: 2rem;
+  opacity: 0.5;
+  width: 70%;
 }
-.info-bottom{
+.info-bottom {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
 }
-.lists{
+.lists {
   flex: 2;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.left-list{
+.left-list {
   flex: 1;
 }
-.left-list{
+.left-list {
   flex: 1;
 }
 
-.video-sec{
+.video-sec {
   flex: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.video-sec h4{
-    font-size: 1rem;
-    color: #034353;
-    margin-bottom: 1rem;
-    opacity: 0.8;
+.video-sec h4 {
+  font-size: 1rem;
+  color: #034353;
+  margin-bottom: 1rem;
+  opacity: 0.8;
 }
 .video-cont {
   width: 50%;
@@ -421,17 +420,17 @@ nav a:hover::before {
   align-items: center;
   justify-content: center;
 }
-.video-cont img{
+.video-cont img {
   width: 100%;
   position: relative;
   -webkit-box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.19);
 }
-.video-cont i{
+.video-cont i {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 3rem;
   animation: pulseTwo 2s infinite;
@@ -447,27 +446,102 @@ nav a:hover::before {
   100% {
   }
 }
-.left-list li{
+.left-list li {
   font-size: 1rem;
   color: #034353;
   opacity: 0.7;
   margin-bottom: 1rem;
 }
-.right-list li{
+.right-list li {
   font-size: 1rem;
   color: #034353;
   opacity: 0.7;
   margin-bottom: 1rem;
 }
 .left-list li i,
-.right-list li i{
+.right-list li i {
   margin-right: 0.5rem;
   color: #034353;
   font-size: 1.3rem;
 }
 
+.contact {
+  max-width: 1000px;
+  text-align: center;
+  background:url(/images/digital-world-map-hologram-blue-background.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  margin: 4rem auto -7rem;
+  -webkit-box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 14px 1px rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+.contact h2 , .contact p {
+  color: #fff;
+  text-align: center;
+}
+ .contact p {
+   margin-bottom: 2rem;
+ }
 
+ /* FOOTER  */
 
+footer {
+  width: 100%;
+  max-width: 1400px;
+  padding: 13rem 2.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  background-color:#034353
+
+}
+
+.footer-logo,
+.footer-contact,
+.footer-member,
+.footer-social {
+  flex: 1;
+}
+.footer-logo p {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+.footer-contact,
+.footer-member,
+.footer-social {
+  text-align: center;
+}
+.footer-contact a,
+.footer-member a,
+.footer-social a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.3s all ease;
+}
+.footer-contact a:hover,
+.footer-member a:hover,
+.footer-social a:hover {
+  color: #2193b0;
+}
+.footer-contact li,
+.footer-member li,
+.footer-social li {
+  margin-bottom: 0.5rem;
+}
+.footer-contact h4,
+.footer-member h4,
+.footer-social h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+ 
 
 
 @media only screen and (max-width: 768px) {
@@ -529,36 +603,49 @@ nav a:hover::before {
     width: 1.5rem;
     height: 1.5rem;
   }
-  .services{
+  .services {
     height: auto;
   }
   .services-section {
-  margin-top:0;
+    margin-top: 0;
   }
-  .presentation{
+  .presentation {
     flex-direction: column;
     margin: 0;
   }
-  .img-con{
+  .img-con {
     margin-bottom: 2rem;
   }
-  .presentation-info{
+  .presentation-info {
     padding: 2rem 0;
     text-align: center;
   }
-  .presentation-info h3{
+  .presentation-info h3 {
     width: 100%;
   }
-  .lists{
+  .lists {
     width: 100%;
     margin-bottom: 2rem;
   }
-  .video-cont{
+  .video-cont {
     width: 100%;
   }
-  .info-bottom{
+  .info-bottom {
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+  }
+   footer {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  footer > div {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .footer-contact,
+  .footer-member,
+  .footer-social {
+    text-align: left;
   }
 }
