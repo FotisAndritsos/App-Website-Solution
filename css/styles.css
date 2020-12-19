@@ -267,8 +267,7 @@ nav a:hover::before {
   border: 3px solid #fff;
   border-radius: 100%;
   background-color: #034353;
-  display: flex;
-  transform: scale(0);
+  display: none;
   transition: 0.5s all ease;
   align-items: center;
   justify-content: center;
