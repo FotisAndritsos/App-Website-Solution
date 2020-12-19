@@ -1,4 +1,4 @@
-FLAT ICONS - USER INTERFACE
+icons from FLAT ICONS (Ui)
 
-//www.pixeden.com/psd-mock-up-templates/psd-iphone-12-mockup-set
+psd-iphone-12-mockup-set -->
 Background photo created by natanaelginting - www.freepik.com
