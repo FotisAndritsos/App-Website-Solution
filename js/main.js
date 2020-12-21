@@ -36,7 +36,13 @@ const scrollFunction = () => {
 
 
 var tl = gsap.timeline();
-tl.from(".hero h1", { opacity: 0, y: 50, duration: 0.5, ease: "power1" });
+tl.from(".hero h1", {
+  opacity: 0,
+  y: 50,
+  duration: 0.5,
+  delay: 0.5,
+  ease: "power1",
+});
 tl.from(".hero p", { opacity: 0, y: 50, duration: 0.5, ease: "power1" });
 tl.from(".hero .btn", { opacity: 0, y: 50, duration: 0.5, ease: "power1" });
 
@@ -82,13 +88,13 @@ let yol = gsap.timeline({
 yol.from(".services h2", {
   y: 30,
   opacity: 0,
-  duration: 1,
+  duration: 0.5,
   ease: "power1",
 });
 yol.from(".serv-p", {
   y: 30,
   opacity: 0,
-  duration: 1,
+  duration: 0.5,
   ease: "power1",
 });
 yol.from(".service-item.left", {
